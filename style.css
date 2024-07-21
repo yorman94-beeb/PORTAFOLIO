@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color:#0c0c0c;
+     min-height: 100vh;
+     box-sizing: border-box;
+
+main{   
+    h1{
+    font: size 20px; ;
+    color: white;
+   text-align:center;
+   background-color:#965505;
+   border-radius: 50%;padding: 3%;margin: 9%;
+}
+.titulo-destaque{color: #000000;font-stretch: ultra-condensed;}
+
+}
+
+ p{
+    margin: 40px;
+    color:silver;
+    text-decoration-line:underline;
+    margin: 3;
+    text-align:center;
+    font-size:150% ;}
+
+
+ img {
+    display: block;
+    margin: 0 auto ;
+    border-radius: 15cm ;}
+   
+
+
+.presentacion{
+    box-sizing: border-box;
+    display: flex ;
+    flex-direction: column;
+    column-gap: 50px;
+
+    
+    
+
+}
+.presentacion_enlaces{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 8%;
+
+
+}
+
+}
+.presentacion_enlace_link{
+    font-family:"Cinzel", serif;
+    font-weight:800 ;
+    color: #0c0c0c;
+    padding: 10px;
+    border-radius: 40%;
+    text-decoration: none;
+    background-color:silver;
+    width: 280px;
+    text-align: center;
+    cursor: pointer;
+}
+footer
+
+{
+    color:#dfd3c9 ;
+    text-align: center;
+    font-family:serif;
+    font-size:xx-large;
+    background-color:#512a04;
+    
+}
